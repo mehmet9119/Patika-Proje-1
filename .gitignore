@@ -52,3 +52,50 @@ SORU 2)
 [8,11,12,16,21,22]
 
 Big-O gösterimi >> O(nlogn)
+
+
+Soru 3)
+EXAMPLE
+[7, 5, 1, 8, 3, 6, 0, 9, 4, 2]
+
+**Pivot olarak 7 seçildi.
+
+Cevap;
+Step 1
+5<7 olduğundan 7'nin soluna
+
+Step 2
+1<7 olduğundan 7'nin soluna ve 1<5 olduğu için de 5'in soluna
+
+Step 3
+7<8 olduğu için 8 rakamı 7'nin sağına
+
+Step 4
+3<7 olduğundan 7'nin soluna
+3<5 olduğundan 5'soluna
+3>1 olduğu için 1 sağına
+
+Step 5
+6<7 olduğu için 7 nin soluna
+6>5 olduğu için 5 sağına
+
+Step 6
+0<7 olduğundan 7'nin soluna
+0<5 olduğundan 5'in soluna
+0<1 olduğundan 1'soluna
+
+Step 7
+9>7 olduğundan 7'nin sağına
+9>8 olduğundan 8'in sağına
+
+Step 8
+4<7 olduğundan 7'nin soluna
+4<5 olduğundan 5'in soluna
+4>1 olduğu için 1'in sağına
+4>3 olduğu için 3'ün sağına
+
+Step 9
+2<7 olduğundan 7'nin soluna
+2<5 olduğundan 5'in soluna
+2>1 olduğu için 1'in sağına
+2<3 olduğu için 3'ün soluna
